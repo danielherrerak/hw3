@@ -1,13 +1,13 @@
 <h1> New Place </h1>
 
 <%= form_with :model => @place do |form| %>
-    <p>
+    <h3>
         <%= form.label "name", "Place" %>
         <%= form.text_field "name" %>
-    </p>
+    </h3>
         <%= form.submit %>
 <% end %>
 
-<p>
+<h4>
     <b> <a href = "/places"> Back to all Places </a> </b>
-</p>
+</h4>
